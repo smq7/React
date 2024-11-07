@@ -1,0 +1,210 @@
+/* header */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  
+    font-family: "Open Sans", sans-serif; 
+}
+
+li {
+  margin: 4px;
+  padding: 1px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+li img {
+  height: 181px;
+  width: 82px;
+}
+
+ul.header {
+  background: rgba(46, 46, 146, 0.7);
+  height: 150px;
+  width: 100%;
+  display: flex;
+  position: absolute;
+}
+
+ul li.center {
+  margin: auto; 
+}
+
+li:last-child {
+  margin-right: 50px;
+  margin-left: auto;
+}
+
+ul li button {
+  height: 50px;
+  width: 80px;
+}
+
+/* main block 1 */
+.backVideo {
+  position: absolute;
+  width: 100%; 
+  height: 700px;
+  z-index: -1;
+}
+
+.backVideo video{
+  width: 100%;
+  height: 100%; 
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  height: 700px;
+}
+
+.content h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.content button {
+  width: 200px;
+  height: 100px;
+}
+/* main block 2 */
+
+.blockTwo {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.img1 {
+  display:flex;
+  margin: 10px;
+}
+
+.textToImg1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.textToImg1 h1 {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.textToImg1 p {
+  white-space: pre-wrap;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 2rem;
+}
+
+.textToImg1 button{
+  height: 150px;
+  width: 200px;
+  
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img2 {
+  display:flex;
+  margin: 10px;
+}
+
+.textToImg2 {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+}
+
+.img2 img {
+  display: flex;
+  flex:1;
+  margin-left: auto;
+  margin: 10px;
+}
+
+.textToImg2 h1 {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.textToImg2 button{
+  height: 150px;
+  width: 200px;
+  margin: auto;
+}
+
+
+/* main block 3 */
+
+.blockTree{
+  background-image: url("../public/img/camp-atwater-5993.jpg");
+  height: 800px;
+}
+
+.photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photos img {
+  margin: 100px 15px 15px 15px;
+  height: 450px;
+  width: 350px;
+  flex:1;
+}
+
+.blockTree .something{
+  display: flex;
+  flex-direction: column;
+}
+
+.something p {
+  display: flex;
+  margin-bottom: 25px;
+  justify-content: center;
+  color: firebrick;
+  font-size: 30px;
+}
+.something button {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+}
+
+/* main block 4 */
+
+.blockFour {
+  background-image: url("../public/img/camp-atwater-6382.jpg");
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blockFour p{
+  color: white;
+  font-size: 40px;
+  margin-right: 150px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.blockFour button {
+  margin-right: 250px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 150px;
+  height: 100px;
+}
+
+
